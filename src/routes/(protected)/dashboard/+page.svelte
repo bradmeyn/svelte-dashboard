@@ -1,10 +1,6 @@
 <script lang="ts">
 	import * as Card from '$lib/components/ui/card';
 
-	import type { ActionData } from './$types';
-
-	let { form }: { form: ActionData } = $props();
-
 	const tempChartData = [
 		{ label: 'January', value: 4000 },
 		{ label: 'February', value: 3000 },
